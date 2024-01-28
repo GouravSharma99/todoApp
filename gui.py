@@ -9,6 +9,4 @@ del_button = sg.Button("Delete todo")
 window = sg.Window("My Todo App", layout=[[label],[inputBox],[add_button, del_button]])
 
 window.read()
-print("Hello")
 window.close()
-print("Hello22")
