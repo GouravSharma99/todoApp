@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-label = sg.Text("Type in a to-do")
+label = sg.Text("Type in a to-do list column")
 inputBox = sg.InputText(tooltip="Enter a todo")
 add_button = sg.Button("Add todo")
 del_button = sg.Button("Delete todo")
