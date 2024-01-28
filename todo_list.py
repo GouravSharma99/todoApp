@@ -1,5 +1,8 @@
 from functions import get_todos , write_todos
 
+def exit():
+    print("Bye see you again")
+
 while True:
     user_action = input("Enter add , show , edit , complete or exit : ").strip().lower()
 
@@ -49,10 +52,12 @@ while True:
             print("Item with mentioned value is not present")
 
     elif user_action.startswith("exit"):
+        exit()
         break
 
     else:
         print("You enter wrong choice !! Plz try again \n")
 
-print('Bye!!')
+print(10+20)
 print("See you again")
+
