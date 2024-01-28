@@ -1,7 +1,7 @@
 from functions import get_todos , write_todos
 
 def exit():
-    print("Bye see you again")
+    return "bye bye"
 
 while True:
     user_action = input("Enter add , show , edit , complete or exit : ").strip().lower()
@@ -52,7 +52,7 @@ while True:
             print("Item with mentioned value is not present")
 
     elif user_action.startswith("exit"):
-        exit()
+        print(exit())
         break
 
     else:
