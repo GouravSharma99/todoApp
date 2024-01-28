@@ -21,3 +21,4 @@ print("hello")
 if __name__ == "__main__":
     demo = "lololol"
     print("Jai ho")
+    print("end")
