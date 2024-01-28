@@ -1,6 +1,7 @@
 from functions import get_todos , write_todos
 
 def exit():
+    print("Jai ho")
     return "bye bye"
 
 while True:
