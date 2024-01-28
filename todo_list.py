@@ -2,6 +2,8 @@ from functions import get_todos , write_todos
 # import functions
 import time
 
+
+
 while True:
     user_action = input(
         "Enter add , show , edit , complete or exit : ").strip().lower()
@@ -72,3 +74,4 @@ while True:
         print("You enter wrong choice !! Plz try again \n")
 
 print('Bye!!')
+print("See you again")
