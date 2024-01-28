@@ -1,8 +1,4 @@
 from functions import get_todos , write_todos
-# import functions
-import random
-
-
 
 while True:
     user_action = input("Enter add , show , edit , complete or exit : ").strip().lower()
