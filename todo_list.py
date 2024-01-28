@@ -5,8 +5,7 @@ import time
 
 
 while True:
-    user_action = input(
-        "Enter add , show , edit , complete or exit : ").strip().upper()
+    user_action = input("Enter add , show , edit , complete or exit : ").strip().lower()
 
     if user_action.startswith("add"):
         # todo = input("Enter the todo : ").capitalize() + "\n"
